@@ -1,0 +1,1502 @@
+[
+  {
+    "question_id": 1,
+    "question": "Cara memberikan flux yang benar pada permukaan IC adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flux diberikan saat setelah selesai melepas IC BGA",
+        "is_correct": false,
+        "explanation": "Salah. Pemberian flux setelah IC dilepas tidak membantu proses pengangkatan IC. Flux harus dioleskan sebelum pemanasan dilakukan."
+      },
+      {
+        "id": "B",
+        "text": "Flux yang baik disesuaikan dengan data sheet IC BGA",
+        "is_correct": false,
+        "explanation": "Salah. Pemilihan flux umumnya didasarkan pada sifat kimia dan kebutuhan proses solder (no-clean/rosin), bukan tercantum sebagai panduan khusus di datasheet tiap IC."
+      },
+      {
+        "id": "C",
+        "text": "Flux dilumuri pada permukaan IC hingga merata",
+        "is_correct": true,
+        "explanation": "Benar! Flux harus dioleskan secara tipis dan merata untuk membantu menghantarkan panas secara seimbang, mereduksi oksidasi, serta mempermudah timah melumer dan menempel dengan sempurna."
+      },
+      {
+        "id": "D",
+        "text": "Sesuaikan temperatur IC pada flux",
+        "is_correct": false,
+        "explanation": "Salah. Parameter temperatur diatur pada alat pemanas (blower/solder), bukan menyesuaikan suhu IC terhadap flux."
+      }
+    ]
+  },
+  {
+    "question_id": 2,
+    "question": "Ukuran suhu panas solder uap yang dibutuhkan untuk melepas IC BGA adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suhu berkisar antara 100°C ke bawah",
+        "is_correct": false,
+        "explanation": "Salah. Suhu di bawah 100°C terlalu dingin untuk melelehkan timah solder jenis apa pun."
+      },
+      {
+        "id": "B",
+        "text": "Suhu berkisar antara 250°C hingga 450°C",
+        "is_correct": true,
+        "explanation": "Benar! Rentang suhu 250°C–450°C pada solder uap (hot air blower) adalah standar umum untuk mencairkan timah BGA tanpa merusak komponen atau melepaskan lapisan PCB."
+      },
+      {
+        "id": "C",
+        "text": "Berdasarkan data IC",
+        "is_correct": false,
+        "explanation": "Salah. Meskipun batas ketahanan panas IC tercantum dalam datasheet, acuan suhu kerja blower tetap menggunakan rentang leleh timah pada PCB (250°C–450°C)."
+      },
+      {
+        "id": "D",
+        "text": "Sesuai petunjuk telepon seluler",
+        "is_correct": false,
+        "explanation": "Salah. Telepon seluler tidak memberikan instruksi manual teknis mengenai batas suhu pemanasan solder uap."
+      }
+    ]
+  },
+  {
+    "question_id": 3,
+    "question": "Berikut adalah langkah awal yang dilakukan teknisi telepon seluler sebelum mencetak IC, yaitu ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Permukaan IC BGA dalam kondisi rata atau tidak ada kaki-kaki yang menonjol",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, tetapi pilihan D lebih tepat karena mencakup seluruh tahapan awal reballing yang wajib dilakukan secara berurutan."
+      },
+      {
+        "id": "B",
+        "text": "IC BGA direkatkan pada plat IC BGA dan dilapisi menggunakan double tape agar kuat dan tidak bergeser",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, tetapi pilihan D lebih tepat karena mencakup seluruh tahapan persiapan posisi cetak."
+      },
+      {
+        "id": "C",
+        "text": "Oleskan timah pasta pada lubang-lubang plat IC BGA hingga merata untuk selanjutnya siap dicetak",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, tetapi pilihan D lebih tepat karena mencakup langkah pengisian timah pasta setelah penataan IC."
+      },
+      {
+        "id": "D",
+        "text": "A, B, dan C semua benar",
+        "is_correct": true,
+        "explanation": "Benar! Tahap awal reballing IC BGA meliputi meratakan permukaan IC dari sisa timah lama, mengunci posisi IC dengan stencil (plat BGA) agar tidak bergeser, lalu meratakan pasta timah di atas cetakan."
+      }
+    ]
+  },
+  {
+    "question_id": 4,
+    "question": "Proses pemasangan IC pada plat yang benar adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Posisi plat IC BGA terhadap kaki-kaki IC BGA harus tepat dan presisi",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D mencakup seluruh syarat kelayakan proses reballing IC secara menyeluruh."
+      },
+      {
+        "id": "B",
+        "text": "Lubang plat IC BGA sebelum digunakan harus bersih dan permukaan plat rata atau tidak bengkok",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D mencakup seluruh kriteria kebersihan dan kondisi stencil."
+      },
+      {
+        "id": "C",
+        "text": "Kaki-kaki IC BGA tampak sangat jelas apabila dilihat pada lubang-lubang plat IC BGA",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D mencakup pentingnya kejelasan visual alignment sebelum dioles pasta."
+      },
+      {
+        "id": "D",
+        "text": "Jawaban A, B, dan C semua benar",
+        "is_correct": true,
+        "explanation": "Benar! Cetakan/stencil harus dalam kondisi bersih, tidak bengkok, dan terpasang secara presisi di atas IC agar bentuk bola timah yang dihasilkan konsisten dan tidak menyatu."
+      }
+    ]
+  },
+  {
+    "question_id": 5,
+    "question": "Suhu yang digunakan pada saat mencetak kaki IC adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suhu berkisar antara 70°C ke bawah",
+        "is_correct": false,
+        "explanation": "Salah. Suhu 70°C tidak cukup untuk mencairkan timah pasta solder."
+      },
+      {
+        "id": "B",
+        "text": "Suhu berkisar ±150°C-180°C",
+        "is_correct": false,
+        "explanation": "Salah. Meskipun timah pasta mulai melunak pada kisaran ini, suhu udara blower perlu sedikit lebih tinggi agar panas meresap sempurna melalui plat metal."
+      },
+      {
+        "id": "C",
+        "text": "Suhu berkisar ±250°C-350°C",
+        "is_correct": true,
+        "explanation": "Benar! Suhu pemanasan ideal saat mencetak kaki IC berkisar antara 250°C–350°C, yang cukup untuk mencairkan timah pasta pada stencil tanpa membakar plat."
+      },
+      {
+        "id": "D",
+        "text": "Suhu berkisar ±90°C-100°C",
+        "is_correct": false,
+        "explanation": "Salah. Suhu ini hanya cukup untuk mengeringkan cairan, bukan melehkan timah pasta."
+      }
+    ]
+  },
+  {
+    "question_id": 6,
+    "question": "Cara melakukan analisis jalur komponen telepon seluler yang mati total adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membandingkan dengan menggunakan telepon seluler yang normal",
+        "is_correct": false,
+        "explanation": "Salah. Membandingkan dengan HP normal bermanfaat tetapi membutuhkan unit cadangan, tidak seefisien menganalisis petunjuk diagram teknis."
+      },
+      {
+        "id": "B",
+        "text": "Melakukan analisis berdasarkan mesin pembanding yang sama kondisinya",
+        "is_correct": false,
+        "explanation": "Salah. Mesin pembanding yang sama-sama rusak tidak memberikan standar nilai pengukuran yang valid."
+      },
+      {
+        "id": "C",
+        "text": "Melakukan analisis berdasarkan skema jalur",
+        "is_correct": true,
+        "explanation": "Benar! Skema jalur (schematics / boardview) adalah panduan teknis paling akurat untuk menganalisis alur tegangan, konsumsi arus, dan melacak titik hubung singkat (korslet) pada HP mati total."
+      },
+      {
+        "id": "D",
+        "text": "Melakukan analisis menggunakan power supply PMB Predator",
+        "is_correct": false,
+        "explanation": "Salah. Power supply hanya alat bantu penyuplai daya/pendeteksi arus, bukan acuan peta jalur kelistrikan."
+      }
+    ]
+  },
+  {
+    "question_id": 7,
+    "question": "Baterai dapat dikatakan layak pakai apabila telah dilakukan pemeriksaan ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemeriksaan merek dan harga",
+        "is_correct": false,
+        "explanation": "Salah. Merek dan harga mahal tidak menjamin kondisi baterai masih sehat atau tidak bocor secara elektrikal."
+      },
+      {
+        "id": "B",
+        "text": "Pemeriksaan ampere dan volt",
+        "is_correct": true,
+        "explanation": "Benar! Pemeriksaan fungsi baterai diukur dari nilai tegangan (Volt) untuk memastikan ketersediaan daya dan kuat arus (Ampere) untuk memastikan kemampuan menyuplai beban HP."
+      },
+      {
+        "id": "C",
+        "text": "Pemeriksaan kondisi baterai menggunakan power supply",
+        "is_correct": false,
+        "explanation": "Salah. Power supply berfungsi menyuplai daya ke mesin HP, bukan alat pengukur kapasitas/kelayakan internal sel baterai."
+      },
+      {
+        "id": "D",
+        "text": "Pemeriksaan bahan baterai",
+        "is_correct": false,
+        "explanation": "Salah. Komposisi bahan kimia (seperti Li-ion/Li-Po) tidak mengindikasikan status kesehatan daya baterai."
+      }
+    ]
+  },
+  {
+    "question_id": 8,
+    "question": "Cara melakukan pemeriksaan komponen di jalur tegangan adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Probe positif diletakkan pada jalur ground dan probe positif diletakkan pada jalur positif",
+        "is_correct": false,
+        "explanation": "Salah. Pernyataan ini membingungkan karena menggunakan dua probe positif."
+      },
+      {
+        "id": "B",
+        "text": "Probe merah diletakkan pada jalur positif dan probe positif diletakkan pada jalur negatif",
+        "is_correct": false,
+        "explanation": "Salah. Penamaan probe tidak sesuai standar pengukuran tegangan DC."
+      },
+      {
+        "id": "C",
+        "text": "Probe merah diletakkan pada jalur positif dan probe hitam diletakkan pada jalur ground",
+        "is_correct": true,
+        "explanation": "Benar! Pengukuran tegangan searah (DC) dilakukan dengan menempelkan probe merah (positif) ke jalur/komponen yang diuji dan probe hitam (negatif) ke jalur ground sebagai referensi nol volt."
+      },
+      {
+        "id": "D",
+        "text": "Probe negatif diletakkan pada jalur positif dan probe positif diletakkan pada jalur ground",
+        "is_correct": false,
+        "explanation": "Salah. Pemasangan terbalik ini akan menghasilkan bacaan tegangan bernilai minus (-) pada layar multimeter."
+      }
+    ]
+  },
+  {
+    "question_id": 9,
+    "question": "Standar yang digunakan dalam memasang suku cadang pengganti adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Saran counter service",
+        "is_correct": false,
+        "explanation": "Salah. Saran counter service bersifat subjektif dan belum tentu sesuai toleransi kelistrikan mesin."
+      },
+      {
+        "id": "B",
+        "text": "Standar SKKNI",
+        "is_correct": false,
+        "explanation": "Salah. SKKNI adalah pedoman standar kompetensi kerja teknisinya, bukan parameter ukuran suku cadang komponen."
+      },
+      {
+        "id": "C",
+        "text": "Saran teman",
+        "is_correct": false,
+        "explanation": "Salah. Opini personal tidak dapat dijadikan patokan teknis penggantian komponen elektronik."
+      },
+      {
+        "id": "D",
+        "text": "Standar pabrik",
+        "is_correct": true,
+        "explanation": "Benar! Penggantian komponen harus mengikuti spesifikasi dan toleransi teknis yang ditetapkan standar pabrikan untuk menjamin keamanan dan performa perangkat."
+      }
+    ]
+  },
+  {
+    "question_id": 10,
+    "question": "Kerusakan yang umum terjadi pada lampu LED adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kerusakan software telepon seluler",
+        "is_correct": false,
+        "explanation": "Salah. Kerusakan fisik LED backlight tidak disebabkan oleh kegagalan software."
+      },
+      {
+        "id": "B",
+        "text": "Tombol volume tidak muncul pada layar",
+        "is_correct": false,
+        "explanation": "Salah. Indikator tombol volume tidak muncul berkaitan dengan masalah OS atau jalur sakelar tombol."
+      },
+      {
+        "id": "C",
+        "text": "Layar LCD tampak gelap pada telepon seluler",
+        "is_correct": true,
+        "explanation": "Benar! Lampu LED berfungsi sebagai pencahayaan latar (backlight). Jika rangkaian LED rusak, gambar pada LCD tetap ada namun layar terlihat sangat gelap."
+      },
+      {
+        "id": "D",
+        "text": "Kerusakan sinyal 4G tidak tampak pada layar",
+        "is_correct": false,
+        "explanation": "Salah. Masalah sinyal 4G ditangani oleh rangkaian RF/Baseband, bukan lampu penerangan layar."
+      }
+    ]
+  },
+  {
+    "question_id": 11,
+    "question": "Pada rangkaian lampu LED, kaki komponen yang terhubung ke jalur positif adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kaki bottom",
+        "is_correct": false,
+        "explanation": "Salah. Bottom merujuk pada tata letak fisik posisi bawah komponen."
+      },
+      {
+        "id": "B",
+        "text": "Kaki anoda",
+        "is_correct": true,
+        "explanation": "Benar! Pada dioda penerang (LED), Anoda merupakan terminal positif tempat masuknya arus listrik, sedangkan Katoda adalah terminal negatif."
+      },
+      {
+        "id": "C",
+        "text": "Kaki common",
+        "is_correct": false,
+        "explanation": "Salah. Terminal common adalah jalur bersama/GND, bukan masukan daya positif LED."
+      },
+      {
+        "id": "D",
+        "text": "Kaki katoda",
+        "is_correct": false,
+        "explanation": "Salah. Katoda adalah terminal negatif pada komponen LED/dioda."
+      }
+    ]
+  },
+  {
+    "question_id": 12,
+    "question": "Pada telepon seluler, pengaturan untuk mengatur terang-gelapnya layar adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Waktu tunggu tampilan layar",
+        "is_correct": false,
+        "explanation": "Salah. Waktu tunggu (Screen Timeout) mengatur durasi waktu sebelum layar mati otomatis saat idle."
+      },
+      {
+        "id": "B",
+        "text": "Mode layar",
+        "is_correct": false,
+        "explanation": "Salah. Mode layar mengatur profil warna (seperti Vivid/Natural), bukan intensitas pencahayaan."
+      },
+      {
+        "id": "C",
+        "text": "Sensitivitas layar",
+        "is_correct": false,
+        "explanation": "Salah. Sensitivitas mengatur tingkat kepatuhan layar terhadap input sentuhan."
+      },
+      {
+        "id": "D",
+        "text": "Kecerahan layar",
+        "is_correct": true,
+        "explanation": "Benar! Menu kecerahan (brightness) mengatur intensitas pencahayaan backlight LED pada modul layar seluler."
+      }
+    ]
+  },
+  {
+    "question_id": 13,
+    "question": "Cara mengetahui kerusakan pada lampu LED dengan menggunakan AVOmeter adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Probe merah pada kaki anoda dan probe hitam pada kaki katoda",
+        "is_correct": true,
+        "explanation": "Benar! Dalam pengujian bias maju (forward bias) menggunakan multimeter mode dioda, probe merah ke Anoda dan probe hitam ke Katoda akan membuat LED yang kondisinya baik menyala redup."
+      },
+      {
+        "id": "B",
+        "text": "Probe merah pada kaki katoda dan probe hitam pada kaki anoda",
+        "is_correct": false,
+        "explanation": "Salah. Pengujian bias terbalik (reverse bias) ini tidak akan menyalakan LED meskipun kondisi LED normal."
+      },
+      {
+        "id": "C",
+        "text": "Probe merah pada kaki positif dan probe hitam pada kaki ground",
+        "is_correct": false,
+        "explanation": "Salah. Mengukur ke ground tidak menguji fungsi pengaliran arus internal komponen LED secara langsung."
+      },
+      {
+        "id": "D",
+        "text": "Probe merah pada kaki ground dan probe hitam pada kaki positif",
+        "is_correct": false,
+        "explanation": "Salah. Posisi ini dipakai untuk pengukuran jatuh tegangan jalur (diode mode in-circuit), bukan tes pendar nyala LED."
+      }
+    ]
+  },
+  {
+    "question_id": 14,
+    "question": "Alat ukur yang digunakan untuk menentukan jalur LED positif dan negatif adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Power supply",
+        "is_correct": false,
+        "explanation": "Salah. Power supply dapat memberi daya tetapi tidak praktis digunakan untuk menentukan polaritas jalur PCB mikro."
+      },
+      {
+        "id": "B",
+        "text": "Multimeter",
+        "is_correct": true,
+        "explanation": "Benar! Multimeter (AVOmeter) digunakan untuk mengecek kontinuitas jalur, hambatan, serta menentukan polaritas kaki anoda dan katoda pada LED."
+      },
+      {
+        "id": "C",
+        "text": "Capacitance meter",
+        "is_correct": false,
+        "explanation": "Salah. Capacitance meter khusus digunakan untuk mengukur kapasitas muatan kapasitor."
+      },
+      {
+        "id": "D",
+        "text": "Oscilloscope",
+        "is_correct": false,
+        "explanation": "Salah. Osiloskop digunakan untuk melihat bentuk gelombang sinyal frekuensi, bukan tes polaritas statis."
+      }
+    ]
+  },
+  {
+    "question_id": 15,
+    "question": "Yang terjadi jika kaki I/O pada SIM Card/kartu SIM tidak berfungsi adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "SMS tidak terkirim",
+        "is_correct": false,
+        "explanation": "Salah. Kegagalan SMS hanya salah satu akibat lanjutan; dampak utamanya adalah seluruh fungsi jaringan terhenti karena SIM tidak terbaca."
+      },
+      {
+        "id": "B",
+        "text": "Suara tidak jelas",
+        "is_correct": false,
+        "explanation": "Salah. Kualitas suara dipengaruhi oleh modul mikrofon/earpiece dan codec audio, bukan bus I/O SIM card."
+      },
+      {
+        "id": "C",
+        "text": "Sinyal hilang",
+        "is_correct": true,
+        "explanation": "Benar! Jalur I/O (Input/Output) berfungsi untuk pertukaran data autentikasi antara kartu SIM dan modem/CPU. Jika jalur ini tidak berfungsi, kartu SIM tidak terdeteksi sehingga modem tidak dapat mendaftarkan perangkat ke jaringan seluler (sinyal hilang)."
+      },
+      {
+        "id": "D",
+        "text": "Data seluler menjadi 3G",
+        "is_correct": false,
+        "explanation": "Salah. Perubahan cakupan jaringan (4G ke 3G) berkaitan dengan kualitas penerimaan sinyal BTS, bukan kegagalan total jalur I/O SIM."
+      }
+    ]
+  },
+  {
+    "question_id": 16,
+    "question": "Di bawah ini termasuk kerusakan yang disebabkan keypad yang bermasalah, kecuali ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Saat mengetik angka 1 muncul huruf A",
+        "is_correct": false,
+        "explanation": "Opsi ini merupakan contoh gejala korsleting matriks baris/kolom pada papan keypad."
+      },
+      {
+        "id": "B",
+        "text": "Angka sering bermasalah",
+        "is_correct": false,
+        "explanation": "Opsi ini merupakan dampak umum kotornya kubah mekanis (dome) pada papan keypad."
+      },
+      {
+        "id": "C",
+        "text": "Tekan tombol A muncul tanda seru (!)",
+        "is_correct": false,
+        "explanation": "Opsi ini merupakan indikasi error pembacaan nilai resistansi/jalur bus tombol."
+      },
+      {
+        "id": "D",
+        "text": "Getar pada telepon seluler tidak aktif",
+        "is_correct": true,
+        "explanation": "Benar! Fitur getar digerakkan oleh motor vibrator dan rangkaian driver khusus, sehingga tidak dipengaruhi oleh kerusakan pada papan keypad."
+      }
+    ]
+  },
+  {
+    "question_id": 17,
+    "question": "Pemeriksaan konektor keypad terhadap kondisi kotor, renggang, patah, dan putus jalur berdasarkan petunjuk reparasi termasuk pemeriksaan ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemeriksaan software",
+        "is_correct": false,
+        "explanation": "Salah. Pemeriksaan software berhubungan dengan diagnosa tingkat sistem operasi/firmware menggunakan komputer."
+      },
+      {
+        "id": "B",
+        "text": "Pemeriksaan secara fisik/visual",
+        "is_correct": true,
+        "explanation": "Benar! Mengamati kondisi fisik seperti korosi, keretakan, kotoran, atau pin terputus menggunakan mata telanjang/kaca pembesar tergolong pemeriksaan fisik/visual."
+      },
+      {
+        "id": "C",
+        "text": "Pemeriksaan biasa",
+        "is_correct": false,
+        "explanation": "Salah. 'Pemeriksaan biasa' bukan merupakan istilah baku dalam metodologi perbaikan elektronik."
+      },
+      {
+        "id": "D",
+        "text": "Pemeriksaan digital",
+        "is_correct": false,
+        "explanation": "Salah. Pemeriksaan digital merujuk pada analisis logika data menggunakan alat ukur instrumen digital."
+      }
+    ]
+  },
+  {
+    "question_id": 18,
+    "question": "Jika connector keypad kotor, biasanya dapat dibersihkan dengan menggunakan cairan ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thinner lalu disikat dengan kuas pembersih",
+        "is_correct": true,
+        "explanation": "Benar! Cairan pembersih seperti Thinner atau Isopropyl Alcohol (IPA) efektif melarutkan kotoran dan lemak pada titik kontak konektor saat digosok perlahan memakai sikat/kuas."
+      },
+      {
+        "id": "B",
+        "text": "IPA kemudian dipanaskan menggunakan solder uap",
+        "is_correct": false,
+        "explanation": "Salah. Mengoleskan cairan pembersih lalu memanaskannya dengan blower dapat melelehkan socket plastik connector."
+      },
+      {
+        "id": "C",
+        "text": "Flux kemudian dipanaskan menggunakan solder uap",
+        "is_correct": false,
+        "explanation": "Salah. Flux digunakan untuk membantu penyolderan timah, bukan sebagai cairan pembersih kotoran fisik."
+      },
+      {
+        "id": "D",
+        "text": "Flux kemudian solder station digosokkan pada connector",
+        "is_correct": false,
+        "explanation": "Salah. Menggosokkan mata solder panas ke connector plastik akan merusak dan melelehkan bentuk rumah connector."
+      }
+    ]
+  },
+  {
+    "question_id": 19,
+    "question": "Jika dari hasil pemeriksaan terjadi putus jalur karena korosi, tindakan yang dapat dilakukan adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menjumper menggunakan kawat jumper, timah solder, serta solder station untuk merekatkan",
+        "is_correct": true,
+        "explanation": "Benar! Jalur kelistrikan PCB yang terputus akibat korosi diperbaiki dengan cara menyambung kembali titik sambungan menggunakan kawat tembaga berisolasi (kawat jumper) dan solder."
+      },
+      {
+        "id": "B",
+        "text": "Melakukan pengukuran dan memanaskan jalur yang putus",
+        "is_correct": false,
+        "explanation": "Salah. Memanaskan jalur PCB yang sudah putus tembaganya tidak akan menyambungkan kembali tembaga yang terputus."
+      },
+      {
+        "id": "C",
+        "text": "Melakukan pengukuran dan memanaskan komponen pada jalur yang putus",
+        "is_correct": false,
+        "explanation": "Salah. Memanaskan komponen tidak memperbaiki fisik jalur tembaga PCB yang hilang terbakar korosi."
+      },
+      {
+        "id": "D",
+        "text": "Melakukan pengukuran dan menjumper dengan solder timah pada jalur yang putus",
+        "is_correct": false,
+        "explanation": "Salah. Hanya meneteskan timah tanpa kawat penyeimbang tidak akan bisa menjembatani jarak putus jalur yang panjang."
+      }
+    ]
+  },
+  {
+    "question_id": 20,
+    "question": "Bagian blok rangkaian IC yang berhubungan dengan bagian sinyal adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "IC Bluetooth",
+        "is_correct": false,
+        "explanation": "Salah. IC Bluetooth hanya menangani konektivitas nirkabel jarak dekat, bukan jaringan transmisi utama seluler."
+      },
+      {
+        "id": "B",
+        "text": "IC Wi-Fi",
+        "is_correct": false,
+        "explanation": "Salah. IC Wi-Fi memproses sinyal jaringan lokal WLAN."
+      },
+      {
+        "id": "C",
+        "text": "IC Power Amplifier",
+        "is_correct": true,
+        "explanation": "Benar! IC Power Amplifier (PA) bertugas memperkuat sinyal frekuensi radio (RF) pada blok jaringan utama seluler sebelum dikirim ke transmiter antena."
+      },
+      {
+        "id": "D",
+        "text": "IC Charger",
+        "is_correct": false,
+        "explanation": "Salah. IC Charger bertugas mengelola siklus pengisian daya ke baterai."
+      }
+    ]
+  },
+  {
+    "question_id": 21,
+    "question": "Untuk melakukan pengaturan jaringan pada menu telepon seluler dengan pencarian secara manual adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Masuk menu Pengaturan > Konektivitas > Jaringan seluler > Mode jaringan",
+        "is_correct": false,
+        "explanation": "Salah. 'Mode jaringan' digunakan untuk memilih jenis teknologi jaringan (seperti 2G/3G/4G/5G), bukan pencarian operator."
+      },
+      {
+        "id": "B",
+        "text": "Masuk menu Pengaturan > Kartu SIM > Atur penggunaan data",
+        "is_correct": false,
+        "explanation": "Salah. 'Atur penggunaan data' berfungsi memantau konsumsi kuota internet."
+      },
+      {
+        "id": "C",
+        "text": "Masuk menu Pengaturan > Konektivitas > Jaringan seluler > Operator jaringan",
+        "is_correct": true,
+        "explanation": "Benar! Pencarian operator secara manual diakses melalui menu Pengaturan Jaringan > Operator Jaringan untuk memindai Base Transceiver Station (BTS) secara langsung."
+      },
+      {
+        "id": "D",
+        "text": "Masuk menu Pengaturan > Kartu SIM > Mode jaringan",
+        "is_correct": false,
+        "explanation": "Salah. Submenu ini hanya mengatur prioritas pita jaringan (LTE/3G/2G)."
+      }
+    ]
+  },
+  {
+    "question_id": 22,
+    "question": "Input sinyal jaringan berupa frekuensi dapat diukur dengan menggunakan ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "RF processor",
+        "is_correct": false,
+        "explanation": "Salah. RF processor adalah IC pengolah sinyal internal di dalam board, bukan alat ukur eksternal."
+      },
+      {
+        "id": "B",
+        "text": "Duplexer (antenna switch)",
+        "is_correct": false,
+        "explanation": "Salah. Duplexer adalah komponen filter sakelar pemisah frekuensi pancar dan terima."
+      },
+      {
+        "id": "C",
+        "text": "AVOmeter digital",
+        "is_correct": false,
+        "explanation": "Salah. AVOmeter biasa tidak mampu mengukur atau menampilkan bentuk gelombang frekuensi radio (RF) bernilai tinggi."
+      },
+      {
+        "id": "D",
+        "text": "Oscilloscope",
+        "is_correct": true,
+        "explanation": "Benar! Oscilloscope merupakan instrumen pengukur yang dapat menampilkan gelombang sinyal dan mengukur frekuensi listrik secara visual."
+      }
+    ]
+  },
+  {
+    "question_id": 23,
+    "question": "Pada saat suara tidak terdeteksi pada menu rekam suara, komponen yang harus diperiksa paling awal adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Capacitor",
+        "is_correct": false,
+        "explanation": "Salah. Kapasitor pendukung jalur audio diuji jika komponen transduser utama dipastikan normal."
+      },
+      {
+        "id": "B",
+        "text": "Resistor",
+        "is_correct": false,
+        "explanation": "Salah. Resistor pull-up/seri jalur audio diperiksa setelah memastikan kondisi fisik mikrofon."
+      },
+      {
+        "id": "C",
+        "text": "Microphone",
+        "is_correct": true,
+        "explanation": "Benar! Mikrofon adalah penangkap sinyal suara (transduser) utama. Jika fungsi perekaman tidak menangkap suara, pemeriksaan awal selalu ditujukan pada fisik dan jalur mikrofon."
+      },
+      {
+        "id": "D",
+        "text": "Lilitan",
+        "is_correct": false,
+        "explanation": "Salah. Lilitan/induktor penyaring getaran frekuensi diuji pada tahap lanjutan penelusuran jalur audio."
+      }
+    ]
+  },
+  {
+    "question_id": 24,
+    "question": "Yang menyebabkan kondisi error seperti 'Kamera belum tersedia atau belum siap' adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software jaringan belum disetting pada menu pengaturan telepon seluler",
+        "is_correct": false,
+        "explanation": "Salah. Konfigurasi jaringan tidak memiliki keterkaitan dengan modul kamera."
+      },
+      {
+        "id": "B",
+        "text": "Penyimpanan memori telepon seluler terlalu penuh",
+        "is_correct": false,
+        "explanation": "Salah. Memori penuh biasanya menyebabkan aplikasi kamera tertutup otomatis (force close) saat mengambil foto, bukan pesan hardware 'kamera tidak siap'."
+      },
+      {
+        "id": "C",
+        "text": "Aplikasi kamera tidak bekerja akibat perangkat keras kamera mengalami masalah",
+        "is_correct": true,
+        "explanation": "Benar! Pesan kesalahan ini biasanya dipicu oleh kegagalan sistem dalam mengidentifikasi hardware modul kamera (misalnya karena modul rusak, fleksibel lepas, atau suplai tegangan VCAM terputus)."
+      },
+      {
+        "id": "D",
+        "text": "Galeri foto terlalu penuh",
+        "is_correct": false,
+        "explanation": "Salah. Jumlah file galeri tidak mempengaruhi komunikasi antarmuka hardware kamera ke sistem."
+      }
+    ]
+  },
+  {
+    "question_id": 25,
+    "question": "Di bawah ini adalah struktur dasar firmware yang berguna untuk menyimpan data seperti aplikasi kamera dan lain-lain, yaitu ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uboot dan Boot",
+        "is_correct": false,
+        "explanation": "Salah. Partisi Boot/Uboot berisi kernel dan instruksi inisialisasi awal booting perangkat."
+      },
+      {
+        "id": "B",
+        "text": "Vram, Secro",
+        "is_correct": false,
+        "explanation": "Salah. Partisi ini khusus menyimpan data keamanan dan konfigurasi modem terenkripsi."
+      },
+      {
+        "id": "C",
+        "text": "Userdata",
+        "is_correct": true,
+        "explanation": "Benar! Partisi userdata pada struktur sistem Android/firmware digunakan untuk menampung data aplikasi, pengaturan pengguna, dan berkas internal."
+      },
+      {
+        "id": "D",
+        "text": "Security system",
+        "is_correct": false,
+        "explanation": "Salah. Partisi keamanan menyimpan kunci enkripsi, sertifikat, dan data imei."
+      }
+    ]
+  },
+  {
+    "question_id": 26,
+    "question": "Jika hasil pengamatan ditemukan kotor pada tombol home, tindakan yang dapat dilakukan adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dibersihkan menggunakan cairan thinner lalu disikat dengan kuas pembersih",
+        "is_correct": true,
+        "explanation": "Benar! Pembersihan kerak atau kotoran fisik pada tombol mekanis cukup menggunakan cairan pelarut (Thinner/IPA) dan sikat halus tanpa perlu memberikan pemanasan."
+      },
+      {
+        "id": "B",
+        "text": "Dibersihkan dengan cairan IPA kemudian dipanaskan menggunakan solder uap",
+        "is_correct": false,
+        "explanation": "Salah. Memanaskan area tombol fleksibel dengan blower berisiko melelehkan komponen membran plastik di dalamnya."
+      },
+      {
+        "id": "C",
+        "text": "Dibersihkan dengan diberikan flux kemudian dipanaskan menggunakan solder uap",
+        "is_correct": false,
+        "explanation": "Salah. Flux lengket dan memanaskannya justru akan mengotori membran tombol mekanis."
+      },
+      {
+        "id": "D",
+        "text": "Dibersihkan dengan diberikan flux kemudian solder station digosokkan pada connector",
+        "is_correct": false,
+        "explanation": "Salah. Menggosokkan solder station pada tombol fisik akan merusak rumah sakelar mekanis."
+      }
+    ]
+  },
+  {
+    "question_id": 27,
+    "question": "Jika hasil pemeriksaan ditemukan adanya jalur yang putus karena korosi, langkah yang dapat dilakukan adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menjumper menggunakan kawat jumper, timah solder, serta solder station untuk merekatkan",
+        "is_correct": true,
+        "explanation": "Benar! Jalur konduktor yang telah terputus akibat korosi harus dihubungkan kembali menggunakan kawat jumper tembaga yang disolder tepat di atas pad/titik jalur yang masih utuh."
+      },
+      {
+        "id": "B",
+        "text": "Melakukan pengukuran dan memanaskan jalur yang putus",
+        "is_correct": false,
+        "explanation": "Salah. Pemanasan saja tidak dapat menyambungkan fisik tembaga pcb yang hilang tergerus karat."
+      },
+      {
+        "id": "C",
+        "text": "Melakukan pengukuran dan memanaskan komponen pada jalur yang putus",
+        "is_correct": false,
+        "explanation": "Salah. Memanaskan komponen pendukung tidak menyelesaikan masalah jalur utama yang terputus."
+      },
+      {
+        "id": "D",
+        "text": "Melakukan pengukuran dan menjumper dengan solder timah pada jalur yang putus",
+        "is_correct": false,
+        "explanation": "Salah. Menyambung jalur tanpa kawat penyambung akan menghasilkan jembatan timah rapuh dan mudah lepas."
+      }
+    ]
+  },
+  {
+    "question_id": 28,
+    "question": "Pemeriksaan pada kaki touchscreen menggunakan multimeter dilakukan pada kaki-kaki di bawah ini, kecuali ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jalur tegangan Vbat",
+        "is_correct": false,
+        "explanation": "Jalur tegangan utama disalurkan ke IC pengontrol sentuhan untuk diatur ulang sebelum mengaliri sensor."
+      },
+      {
+        "id": "B",
+        "text": "Jalur isyarat data",
+        "is_correct": false,
+        "explanation": "Jalur isyarat data (SDA/SCL) wajib ada untuk mengirimkan koordinat sentuhan ke CPU."
+      },
+      {
+        "id": "C",
+        "text": "Jalur tegangan charger",
+        "is_correct": true,
+        "explanation": "Benar! Sistem touchscreen terhubung melalui jalur daya (VCC/VIO), jalur data (SDA/SCL), dan sinyal kontrol (INT/RESET). Jalur pengisian daya baterai (charger) tidak terhubung ke konektor touchscreen."
+      },
+      {
+        "id": "D",
+        "text": "Jalur tegangan perintah",
+        "is_correct": false,
+        "explanation": "Jalur perintan/interupsi (INT/RST) digunakan oleh controller untuk memberi tahu processor saat ada input sentuhan."
+      }
+    ]
+  },
+  {
+    "question_id": 29,
+    "question": "Hal-hal yang sering terjadi pada telepon seluler akibat kerusakan pada sistem software adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hang logo atau bootloop",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, tetapi pilihan D lebih tepat karena merangkum seluruh gejala kerusakan software."
+      },
+      {
+        "id": "B",
+        "text": "Sering terjadi restart sendiri",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D mencakup dampak kegagalan sistem secara lebih lengkap."
+      },
+      {
+        "id": "C",
+        "text": "Muncul pesan aplikasi sedang terhenti",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D merangkum seluruh bentuk eror aplikasi akibat OS bermasalah."
+      },
+      {
+        "id": "D",
+        "text": "Jawaban A, B, dan C semua benar",
+        "is_correct": true,
+        "explanation": "Benar! Kerusakan pada berkas firmware atau file sistem OS dapat memicu gejala bootloop (stuck logo), restart acak, hingga aplikasi crash terus-menerus."
+      }
+    ]
+  },
+  {
+    "question_id": 30,
+    "question": "Driver utama yang harus disediakan sebelum melakukan flashing program pada telepon seluler adalah ...",
+    "options": [
+      {
+        "id": "A",
+        "text": "USB Driver dan ADB debugging",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, tetapi pilihan D lebih tepat karena membutuhkan paket instalasi lengkap."
+      },
+      {
+        "id": "B",
+        "text": "Firmware OS sesuai tipe telepon seluler",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D mencakup kebutuhan berkas sistem firmware secara menyeluruh."
+      },
+      {
+        "id": "C",
+        "text": "Program flashing sesuai tipe telepon seluler",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D mencakup keberadaan perangkat lunak eksekutor."
+      },
+      {
+        "id": "D",
+        "text": "Jawaban A, B, dan C semua benar",
+        "is_correct": true,
+        "explanation": "Benar! Proses pemulihan software (flashing) memerlukan interaksi penuh antara PC dan HP yang membutuhkan driver USB, berkas firmware resmi, serta aplikasi flashing tool yang sesuai."
+      }
+    ]
+  },
+  {
+    "question_id": 31,
+    "question": "Salah satu alat yang dipergunakan untuk mencetak IC BGA adalah",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penjepit PCB mesin ponsel",
+        "is_correct": false,
+        "explanation": "Salah. Penjepit PCB berfungsi untuk menahan papan mesin agar tidak bergeser saat pengerjaan."
+      },
+      {
+        "id": "B",
+        "text": "Solder wick",
+        "is_correct": false,
+        "explanation": "Salah. Solder wick berguna untuk meratakan/menyerap sisa timah lama pada pcb."
+      },
+      {
+        "id": "C",
+        "text": "Plat BGA",
+        "is_correct": true,
+        "explanation": "Benar! Plat BGA (BGA stencil) adalah cetakan logam berlubang presisi yang digunakan untuk menempatkan pasta timah hingga membentuk bola-bola kaki IC BGA."
+      },
+      {
+        "id": "D",
+        "text": "Solder station",
+        "is_correct": false,
+        "explanation": "Salah. Solder station bertangkai biasa digunakan untuk penyolderan titik manual, bukan pencetakan bola timah BGA."
+      }
+    ]
+  },
+  {
+    "question_id": 32,
+    "question": "Bahan yang digunakan untuk mencetak kaki IC BGA adalah",
+    "options": [
+      {
+        "id": "A",
+        "text": "Timah gulung",
+        "is_correct": false,
+        "explanation": "Salah. Timah gulung terlalu tebal dan padat sehingga tidak bisa dimasukkan ke dalam lubang mikro stencil BGA."
+      },
+      {
+        "id": "B",
+        "text": "Flux",
+        "is_correct": false,
+        "explanation": "Salah. Flux adalah bahan pembersih dan pelumas panas, bukan materi pembentuk bola timah."
+      },
+      {
+        "id": "C",
+        "text": "Timah pasta",
+        "is_correct": true,
+        "explanation": "Benar! Timah pasta (solder paste) dioleskan ke atas lubang plat BGA karena bentuknya yang lembek dan fleksibel sebelum dipanaskan menjadi bola-bola timah."
+      },
+      {
+        "id": "D",
+        "text": "Cairan IPA",
+        "is_correct": false,
+        "explanation": "Salah. IPA adalah cairan pembersih residu kimia, bukan bahan solder."
+      }
+    ]
+  },
+  {
+    "question_id": 33,
+    "question": "Socket Sim Card adalah komponen untuk:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengkoneksikan kartu Sim kepada mesin",
+        "is_correct": true,
+        "explanation": "Benar! Socket SIM Card berfungsi sebagai dudukan fisik sekaligus penyambung kontak PIN kartu SIM ke jalur sistem utama mesin HP."
+      },
+      {
+        "id": "B",
+        "text": "Mngkoneksikan trafo charger ke mesin telepon seluler",
+        "is_correct": false,
+        "explanation": "Salah. Pengisian daya dihubungkan melalui port/konektor USB charger."
+      },
+      {
+        "id": "C",
+        "text": "Mengkoneksikan hands free ke mesin ponsel",
+        "is_correct": false,
+        "explanation": "Salah. Handsfree disambungkan melalui audio jack 3.5mm atau konektor Type-C."
+      },
+      {
+        "id": "D",
+        "text": "Menyesuaikan sinyal yang diterima maupun yang dikirim",
+        "is_correct": false,
+        "explanation": "Salah. Penyesuaian sinyal dilakukan oleh blok rangkaian RF dan Antena Switch."
+      }
+    ]
+  },
+  {
+    "question_id": 34,
+    "question": "Penyebab kerusakan LCD adalah sebagai berikut:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kontak langsung dengan sinar matahari yang dapat mengakibatkan cairan LCD memuai sehingga karakter tidak bisa ditampilkan serta terkena air",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, tetapi pilihan D lebih lengkap karena merangkum berbagai penyebab fisik/lingkungan."
+      },
+      {
+        "id": "B",
+        "text": "Kerusakan pada bagian penghubung seperti rubber contact, kabel fleksibel konektor",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D lebih tepat karena mencakup kegagalan koneksi fisik."
+      },
+      {
+        "id": "C",
+        "text": "Terjadi benturan yang mengakibatkan adanya arus sesat diluar batas",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D mencakup faktor dampak benturan fisik mekanis."
+      },
+      {
+        "id": "D",
+        "text": "Jawaban a, b, c benar",
+        "is_correct": true,
+        "explanation": "Benar! LCD dapat mengalami kerusakan akibat faktor lingkungan (panas matahari/air), masalah konektivitas fisik (fleksibel sobek/kotor), maupun benturan fisik yang memicu kerusakan jalur internal."
+      }
+    ]
+  },
+  {
+    "question_id": 35,
+    "question": "Berupa crystal cair yang terpadu sebagai media untuk mengubah sinyal elektrik menjadi karakter huruf, angka dan yang menampilkan semua kegiatan/ aktifitas dari pesawat telepon seluler adalah:",
+    "options": [
+      {
+        "id": "A",
+        "text": "LED",
+        "is_correct": false,
+        "explanation": "Salah. LED adalah dioda penerang, bukan media panel penyusun gambar/karakter berbasis kristal cair."
+      },
+      {
+        "id": "B",
+        "text": "IC",
+        "is_correct": false,
+        "explanation": "Salah. IC adalah sirkuit terpadu pemproses data, bukan komponen tampilan visual."
+      },
+      {
+        "id": "C",
+        "text": "LCD",
+        "is_correct": true,
+        "explanation": "Benar! LCD singkatan dari Liquid Crystal Display, yaitu modul layar berbasis kristal cair yang merespons sinyal elektrik untuk menampilkan gambar dan teks."
+      },
+      {
+        "id": "D",
+        "text": "Oscilloscope",
+        "is_correct": false,
+        "explanation": "Salah. Osiloskop adalah alat ukur sinyal, bukan layar internal HP."
+      }
+    ]
+  },
+  {
+    "question_id": 36,
+    "question": "Bahan yang dipergunakan untuk mempercepat perambatan panas dalam proses penyolderan adalah:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flux",
+        "is_correct": true,
+        "explanation": "Benar! Flux berfungsi sebagai konduktor panas untuk meratakan suhu penyolderan serta mencegah oksidasi pada permukaan logam saat dipanaskan."
+      },
+      {
+        "id": "B",
+        "text": "Timah gulung",
+        "is_correct": false,
+        "explanation": "Salah. Timah gulung adalah bahan perekat konduktif yang dilelehkan, bukan agen perambat panas."
+      },
+      {
+        "id": "C",
+        "text": "Timah pasta",
+        "is_correct": false,
+        "explanation": "Salah. Timah pasta adalah materi penyolderan cetak kaki IC."
+      },
+      {
+        "id": "D",
+        "text": "Cairan IPA",
+        "is_correct": false,
+        "explanation": "Salah. Cairan IPA justru menyerap panas dan menguap untuk mendinginkan/cleansing."
+      }
+    ]
+  },
+  {
+    "question_id": 37,
+    "question": "Solder uap disebut juga dengan:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solder udara",
+        "is_correct": false,
+        "explanation": "Salah. Sebutan solder udara kurang populer dibanding penamaan teknis internasionalnya."
+      },
+      {
+        "id": "B",
+        "text": "Hot air soldering",
+        "is_correct": true,
+        "explanation": "Benar! Solder uap dikenal secara internasional dengan istilah Hot Air Soldering Station karena memanfaatkan hembusan udara panas untuk melunakkan timah."
+      },
+      {
+        "id": "C",
+        "text": "Solder angin",
+        "is_correct": false,
+        "explanation": "Salah. Istilah 'solder angin' merupakan julukan awam dan bukan standar alat perbaikan."
+      },
+      {
+        "id": "D",
+        "text": "Solder elemen",
+        "is_correct": false,
+        "explanation": "Salah. Solder elemen merujuk pada solder tancap bertangkai konvensional."
+      }
+    ]
+  },
+  {
+    "question_id": 38,
+    "question": "Kerusakan yang sering terjadi pada tombol On-Off sebagai berikut:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dudukan patri tombol rusak",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D lebih tepat karena mencakup kasus patahnya struktur fisik tombol."
+      },
+      {
+        "id": "B",
+        "text": "Tombol patah dan terlepas dari dudukan ponsel",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D lebih tepat karena mencakup lepasnya sambungan patri tombol."
+      },
+      {
+        "id": "C",
+        "text": "Terjepit dikantong",
+        "is_correct": false,
+        "explanation": "Salah. Terjepit dikantong adalah penyebab eksternal/penggunaan, bukan bentuk fisik kerusakannya."
+      },
+      {
+        "id": "D",
+        "text": "Jawaban a dan b benar",
+        "is_correct": true,
+        "explanation": "Benar! Kerusakan fisik pada sakelar tombol On/Off mekanis paling sering terjadi pada lepasnya solderan kaki dudukan di PCB atau struktur tombolnya yang patah/lepas akibat pemakaian berulang."
+      }
+    ]
+  },
+  {
+    "question_id": 39,
+    "question": "Cara melepas komponen telepon seluler yang rusak, diantaranya adalah:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gunakan solder uap dengan panas/ suhu pada posisi 250°C – 300°C",
+        "is_correct": true,
+        "explanation": "Benar! Melepas komponen SMD/IC dari PCB dilakukan dengan memanaskan area titik timah menggunakan solder uap pada temperatur ideal berkisar 250°C–300°C."
+      },
+      {
+        "id": "B",
+        "text": "Keakuratan nilai tahanan menjamin arus yang dilalui",
+        "is_correct": false,
+        "explanation": "Salah. Pernyataan ini adalah prinsip hukum Ohm, bukan cara fisik melepas komponen."
+      },
+      {
+        "id": "C",
+        "text": "Sebagai penghambat arus, penghubung frekuensi dan pengatur tegangan dan sebagai sekering dan pembagi tegangan",
+        "is_correct": false,
+        "explanation": "Salah. Kalimat ini menjelaskan fungsi komponen pasif (resistor/kapasitor), bukan teknik pengangkatan komponen."
+      },
+      {
+        "id": "D",
+        "text": "Ketelitian dan nilai komponen itu sendiri menghasilkan yang baik",
+        "is_correct": false,
+        "explanation": "Salah. Kalimat ini adalah kualifikasi umum, bukan prosedur operasional pelepas komponen."
+      }
+    ]
+  },
+  {
+    "question_id": 40,
+    "question": "Berfungsi sebagai pendeteksi output tegangan, pendeteksi kerusakan software atau hardware, pensupply tegangan, pendeteksi tegangan transmite yang normal, pendeteksi tegangan standby yang normal dan mengetahui letak komponen yang short dimesin ponsel adalah",
+    "options": [
+      {
+        "id": "A",
+        "text": "LED",
+        "is_correct": false,
+        "explanation": "Salah. LED adalah komponen dioda pencahayaan."
+      },
+      {
+        "id": "B",
+        "text": "Power supply",
+        "is_correct": true,
+        "explanation": "Benar! Power supply variabel (catu daya) di meja servis berfungsi memberi daya pengganti baterai sekaligus memantau pergerakan arus (Ampere) untuk mendiagnosis korsleting dan status booting mesin."
+      },
+      {
+        "id": "C",
+        "text": "LCD",
+        "is_correct": false,
+        "explanation": "Salah. LCD adalah modul Tampilan gambar."
+      },
+      {
+        "id": "D",
+        "text": "Oscilloscope",
+        "is_correct": false,
+        "explanation": "Salah. Osiloskop dipakai khusus mengukur bentuk gelombang sinyal, bukan penyuplai daya variabel mesin."
+      }
+    ]
+  },
+  {
+    "question_id": 41,
+    "question": "Ponsel konslet ditandai munculnya gejala berikut ini:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proses pengisian baterai tidak mencapai maksimal",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, tetapi pilihan D lebih tepat karena merangkum semua indikasi korsleting."
+      },
+      {
+        "id": "B",
+        "text": "Apabila disentuh salah satu atau lebih body komponen ponsel akan terasa panas",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D mencakup gejala penyerap daya dan efek sinyal."
+      },
+      {
+        "id": "C",
+        "text": "Baterai cepat ngedrop dan tidak ada sinyal",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D lebih lengkap karena menggabungkan dampak ke baterai dan blok RF."
+      },
+      {
+        "id": "D",
+        "text": "Jawab a, b dan c benar",
+        "is_correct": true,
+        "explanation": "Benar! Konsleting (short circuit) menyerap arus berlebih sehingga memicu panas pada komponen yang rusak, membuang isi daya baterai dengan cepat, serta mengganggu suplai daya ke blok fungsi lain seperti IC Sinyal."
+      }
+    ]
+  },
+  {
+    "question_id": 42,
+    "question": "Kegunaan catu daya dalam pengukuran di ponsel antara lain:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengukur nilai transmitter menentukan boros baterai atau tidaknya ponsel tersebut",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D lebih tepat karena mencakup kegagalan pengisian awal baterai."
+      },
+      {
+        "id": "B",
+        "text": "Membangkitkan baterai yang sudah turun nilai DC nya",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D lebih tepat karena mencakup pemantauan lompatan konsumsi arus."
+      },
+      {
+        "id": "C",
+        "text": "Melihat nilai arus yang dikeluarkan ponsel untuk menentukan langkah perbaikan",
+        "is_correct": false,
+        "explanation": "Pernyataan ini benar, namun pilihan D merangkum seluruh kegunaan catu daya di meja servis."
+      },
+      {
+        "id": "D",
+        "text": "Jawaban a, b dan c benar",
+        "is_correct": true,
+        "explanation": "Benar! Catu daya (power supply) dapat digunakan untuk menembak/membangkitkan baterai drop, memantau lompatan konsumsi arus saat pemancaran sinyal RF, dan membaca pola konsumsi arus untuk menentukan area kerusakan."
+      }
+    ]
+  },
+  {
+    "question_id": 43,
+    "question": "Sebuah komponen elektronika yang berfungsi untuk mengubah getaran listrik menjadi getaran suara pada pesawat telepon seluler adalah",
+    "options": [
+      {
+        "id": "A",
+        "text": "LED",
+        "is_correct": false,
+        "explanation": "Salah. LED mengubah arus listrik menjadi pancaran cahaya."
+      },
+      {
+        "id": "B",
+        "text": "IC",
+        "is_correct": false,
+        "explanation": "Salah. IC memproses logika/tegangan, bukan mengubah gelombang menjadi suara fisik."
+      },
+      {
+        "id": "C",
+        "text": "LCD",
+        "is_correct": false,
+        "explanation": "Salah. LCD mengonversi sinyal menjadi tampilan visual."
+      },
+      {
+        "id": "D",
+        "text": "Buzzer",
+        "is_correct": true,
+        "explanation": "Benar! Buzzer/speaker merupakan transduser elektroakustik yang mengonversi sinyal audio berupa gelombang listrik menjadi gelombang suara (nada dering/musik)."
+      }
+    ]
+  },
+  {
+    "question_id": 44,
+    "question": "Penyebab kerusakan buzzer sebagai berikut:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kontak langsung dengan sinar matahari yang dapat mengakibatkan cairan LCD memuai sehingga karakter tidak bisa ditampilkan serta terkena air",
+        "is_correct": false,
+        "explanation": "Salah. Opsi ini menjelaskan penyebab kerusakan pada panel layar LCD."
+      },
+      {
+        "id": "B",
+        "text": "Arus terlalu tingga dan faktor usia",
+        "is_correct": true,
+        "explanation": "Benar! Kumparan/membran buzzer rentan putus atau robek akibat hentakan lonjakan arus listrik yang terlalu tinggi atau keausan/degradasi bahan seiring lamanya pemakaian."
+      },
+      {
+        "id": "C",
+        "text": "Terjadi benturan yang mengakibatkan adanya arus sesat diluar batas",
+        "is_correct": false,
+        "explanation": "Salah. Benturan fisik lebih berdampak pada retaknya pcb/layar daripada pemicu arus sesat pada membran speaker."
+      },
+      {
+        "id": "D",
+        "text": "Jawaban a, b dan c benar",
+        "is_correct": false,
+        "explanation": "Salah. Pilihan A dan C tidak relevan secara langsung dengan penyebab rusaknya elemen buzzer."
+      }
+    ]
+  },
+  {
+    "question_id": 45,
+    "question": "Akibat kerusakan yang sering terjadi pada buzer sebagai berikut:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dudukan patri tombol rusak",
+        "is_correct": false,
+        "explanation": "Salah. Dudukan patri tombol berkaitan dengan komponen tombol mekanis On/Off atau Volume."
+      },
+      {
+        "id": "B",
+        "text": "Tidak keluar suara ringtone",
+        "is_correct": true,
+        "explanation": "Benar! Kerusakan pada unit buzzer atau jalurnya berakibat langsung pada hilangnya nada panggil/ringtone, suara speakerphone, dan putaran audio multimedia."
+      },
+      {
+        "id": "C",
+        "text": "Tombol patah dan terlepas dari dudukan ponsel",
+        "is_correct": false,
+        "explanation": "Salah. Kerusakan sakelar fisik tombol tidak dipengaruhi oleh buzzer."
+      },
+      {
+        "id": "D",
+        "text": "Terjepit dikantong",
+        "is_correct": false,
+        "explanation": "Salah. Terjepit di kantong adalah perlakuan penggunaan eksternal, bukan dampak langsung kerusakan internal buzzer."
+      }
+    ]
+  },
+  {
+    "question_id": 46,
+    "question": "Lampu service ponsel sering disebut dengan",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lampu loop",
+        "is_correct": false,
+        "explanation": "Salah. 'Lampu loop' (Loupe Lamp) adalah penamaan populer untuk lampu yang dilengkapi kaca pembesar (magnifier)."
+      },
+      {
+        "id": "B",
+        "text": "Lampu LCD",
+        "is_correct": false,
+        "explanation": "Salah. Lampu LCD merujuk pada backlight yang tertanam di dalam modul layar."
+      },
+      {
+        "id": "C",
+        "text": "Lampu LED",
+        "is_correct": true,
+        "explanation": "Benar! Lampu penerang tambahan yang digunakan oleh teknisi di meja kerja perbaikan perangkat mikro umumnya menggunakan teknologi LED (Light Emitting Diode)."
+      },
+      {
+        "id": "D",
+        "text": "Lampu lap",
+        "is_correct": false,
+        "explanation": "Salah. 'Lampu lap' bukan merupakan jenis pencahayaan teknis perbaikan HP."
+      }
+    ]
+  },
+  {
+    "question_id": 47,
+    "question": "Salah satu kegunaan timah gulung adalah",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memasang casing",
+        "is_correct": false,
+        "explanation": "Salah. Casing dipasang menggunakan sekrup atau lem khusus (perekat B7000/T7000)."
+      },
+      {
+        "id": "B",
+        "text": "Memasang IC BGA",
+        "is_correct": false,
+        "explanation": "Salah. Pemasangan kaki-kaki mikro IC BGA memerlukan timah pasta (solder paste)."
+      },
+      {
+        "id": "C",
+        "text": "Memasang jumper",
+        "is_correct": true,
+        "explanation": "Benar! Timah gulung (solder wire) umum digunakan untuk menyolder komponen berkaki besar, connector, serta merekatkan kawat jumper pada titik PCB."
+      },
+      {
+        "id": "D",
+        "text": "Memasang kamera",
+        "is_correct": false,
+        "explanation": "Salah. Modul kamera dipasang cukup dengan menancapkan soket fleksibel ke PCB."
+      }
+    ]
+  },
+  {
+    "question_id": 48,
+    "question": "Untuk membersihkan mata solder digunakan",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spon kering",
+        "is_correct": false,
+        "explanation": "Salah. Spons kering akan terbakar dan melekat di mata solder saat tersenggol suhu panas."
+      },
+      {
+        "id": "B",
+        "text": "Kain lap basah",
+        "is_correct": false,
+        "explanation": "Salah. Kain lap basah dapat meninggalkan serat kain yang terbakar pada mata solder."
+      },
+      {
+        "id": "C",
+        "text": "Kain lap kering",
+        "is_correct": false,
+        "explanation": "Salah. Lap kering berisiko terbakar dan mengotori ujung mata solder."
+      },
+      {
+        "id": "D",
+        "text": "Spon basah",
+        "is_correct": true,
+        "explanation": "Benar! Spons yang dibasahi air adalah standar pembersih mata solder (soldering tip) untuk mengangkat residu kotoran dan oksida timah tanpa merusak lapisan pelindung mata solder."
+      }
+    ]
+  },
+  {
+    "question_id": 49,
+    "question": "Untuk membersihkan sisa-sisa timah setelah pengangkatan IC dipergunakan:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kain lap",
+        "is_correct": false,
+        "explanation": "Salah. Kain lap tidak bisa mengangkat timah cair dan akan terbakar jika terkena panas solder."
+      },
+      {
+        "id": "B",
+        "text": "Solder wick",
+        "is_correct": true,
+        "explanation": "Benar! Solder wick (pita tembaga serap timah) digunakan bersama solder tip untuk menyerap dan meratakan sisa-sisa timah yang tertinggal di pad PCB setelah IC diangkat."
+      },
+      {
+        "id": "C",
+        "text": "Thinner",
+        "is_correct": false,
+        "explanation": "Salah. Thinner berguna melarutkan residu minyak/flux, bukan menyerap logam timah padat/cair."
+      },
+      {
+        "id": "D",
+        "text": "Flux",
+        "is_correct": false,
+        "explanation": "Salah. Flux membantu melelehkan timah, tetapi tidak berfungsi menyerap volume sisa timah berlebih dari pad."
+      }
+    ]
+  },
+  {
+    "question_id": 50,
+    "question": "Alat untuk membersihkan PCB mesin ponsel dari sisa-sisa flux setelah melakukan pencabutan maupun pemasangan komponen adalah:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tisu",
+        "is_correct": false,
+        "explanation": "Salah. Serpihan tisu mudah tersangkut pada komponen mikro PCB dan meninggalkan sampah serat."
+      },
+      {
+        "id": "B",
+        "text": "Solder",
+        "is_correct": false,
+        "explanation": "Salah. Solder adalah alat pemanas penyambung timah, bukan pembersih residu kimia."
+      },
+      {
+        "id": "C",
+        "text": "Kuas",
+        "is_correct": true,
+        "explanation": "Benar! Kuas halus yang dibasahi cairan pembersih (seperti thinner atau IPA) digunakan untuk menggosok dan membersihkan sisa flux lengket pada sela-sela PCB."
+      },
+      {
+        "id": "D",
+        "text": "Kain lap",
+        "is_correct": false,
+        "explanation": "Salah. Kain lap kurang efektif menjangkau sela-sela sempit di bawah kaki komponen SMD."
+      }
+    ]
+  }
+]
